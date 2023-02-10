@@ -14,7 +14,7 @@ pipeline {
         stage("Clone code from GitHub") {
             steps {
                 script {
-                    git url: 'https://github.com/devopshint/jenkins-nexus';
+                    git url: 'https://github.com/SriSyama/jenkins-nexus.git';
                 }
             }
         }
